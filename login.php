@@ -10,7 +10,6 @@
 require('db.php');
 session_start();
 // If form submitted, insert values into the database.
-echo "<jkndsoifj>"
 if (isset($_POST['username'])){
         // removes backslashes
 	$username = stripslashes($_REQUEST['username']);
